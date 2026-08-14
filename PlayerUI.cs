@@ -14,6 +14,7 @@ public class PlayerUI : MonoBehaviour
         //Update player's health
         healthSlider.maxValue = player.maxHealth;
         healthSlider.value = player.health;
+        //Update count of coins
         coinsCounterText.text = player.coins.ToString();
     }
 }
